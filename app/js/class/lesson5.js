@@ -1,0 +1,23 @@
+{
+    console.log(0b11111011);//用十进制的方式显示二进制
+    console.log(0o767);//八进制的表示方式
+}
+{
+    Number.isFinite(15);//判断一个值是否是在有限范围内：true
+    console.log('NaN',Number.isFinite(NaN));//判断一个值是否是在有限范围内：false
+    console.log('1/0',Number.isFinite('true'/0));//判断一个值是否是在有限范围内：false
+    Number.isNaN(0);//判断是否是一个数字
+    Number.isInteger(25);//判断是否是一个整数true
+    Number.isInteger(25.0);//判断是否是一个整数true
+    Number.isInteger(25.1);//判断是否是一个整数false
+    Number.isInteger('25');//判断是否是一个整数false
+    console.log(Number.MAX_SAFE_INTEGER);//数的一个最大上限
+    console.log(Number.MIN_SAFE_INTEGER);//数的一个最小上限
+    console.log(Number.isSafeInteger(10));//判断一个数字是否在最大和最小的安全范围之内
+    console.log(Math.trunc(4.1));//输出结果4
+    console.log(Math.trunc(4.9));//输出结果4
+    console.log(Math.sign(-5));//-1代表是负数
+    console.log(Math.sign(0));//0代表是0
+    console.log(Math.sign(5));//1代表是正数
+    console.log(Math.cbrt(4));//立方根的
+}
